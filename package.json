@@ -1,9 +1,6 @@
 {
   "scripts": {
     "start": "snowpack dev",
-    "start-backend": "node server/server.js",
-    "start-frontend": "snowpack dev",
-    "start-all": "concurrently \"npm run start-backend\" \"npm run start-frontend\"",
     "reload": "snowpack dev --reload",
     "build": "snowpack build",
     "test": "echo \"This template does not include a test runner by default.\" && exit 1",
