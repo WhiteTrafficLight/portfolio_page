@@ -36,7 +36,9 @@
     "@types/node-fetch": "^2.6.11",
     "concurrently": "^8.2.2",
     "ts-node": "^10.9.2",
-    "typescript": "^5.4.3",
+    "typescript": "^5.4.3"
+  },
+  "optionalDependencies": {
     "midi": "^2.0.0"
   }
 }
