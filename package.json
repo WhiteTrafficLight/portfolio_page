@@ -1,0 +1,46 @@
+{
+  "scripts": {
+    "start": "snowpack dev",
+    "start-backend": "node server/server.js",
+    "start-frontend": "snowpack dev",
+    "start-all": "concurrently \"npm run start-backend\" \"npm run start-frontend\"",
+    "reload": "snowpack dev --reload",
+    "build": "snowpack build",
+    "test": "echo \"This template does not include a test runner by default.\" && exit 1",
+    "format": "prettier --write \"src/**/*.{ts,js}\"",
+    "lint": "prettier --check \"src/**/*.{ts,js}\""
+  },
+  "dependencies": {
+    "@snowpack/plugin-run-script": "^2.3.0",
+    "@tonejs/midi": "^2.0.28",
+    "@tweenjs/tween.js": "^18.6.4",
+    "@types/dat.gui": "^0.7.7",
+    "@types/stats.js": "^0.17.0",
+    "@types/three": "^0.133.1",
+    "cors": "^2.8.5",
+    "dat.gui": "^0.7.9",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "FontLoader": "^0.0.2",
+    "inspector": "^0.5.0",
+    "midi": "^2.0.0",
+    "midi-parser-js": "^4.0.4",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.32.1",
+    "prettier": "^2.4.1",
+    "snowpack": "^3.7.1",
+    "stats.js": "^0.17.0",
+    "three": "^0.133.1",
+    "tone": "^14.7.77",
+    "update": "^0.7.4"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.21",
+    "@types/node": "^18.14.0",
+    "@types/node-fetch": "^2.6.11",
+    "concurrently": "^8.2.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  }
+}
