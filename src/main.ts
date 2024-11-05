@@ -1307,7 +1307,7 @@ let animateWheels =false;
                 renderer.render(scene3, camera3);
             
             }
-        else {
+        /*else {
             //controls4.update();
             camera.lookAt(0, 0, 90000);
             camera2.lookAt(0, 0, 90000);
@@ -1376,7 +1376,7 @@ let animateWheels =false;
 
 
             renderer.render(scene4, camera4);
-        }
+        }*/
 
 
     };
