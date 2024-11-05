@@ -9,7 +9,7 @@
   },
   "engines": {
     "node": "18.x"
-  }
+  },
   "dependencies": {
     "@snowpack/plugin-run-script": "^2.3.0",
     "@tonejs/midi": "^2.0.28",
