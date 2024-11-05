@@ -806,7 +806,7 @@ let snowGeometry3 =addSnow3(scene3);
 
 
 /////////Scene4 Start
-
+/*
 const material4 = new THREE.MeshPhongMaterial({ 
     map: texture4,
     shininess: 1,
@@ -1146,7 +1146,7 @@ let animateWheels =false;
 
       
        
-  
+*/  
 ////////Scene4 End
 
 
