@@ -1023,7 +1023,7 @@ function generateCubes(midiData: MidiData[]) {
     .then((midiData: MidiData[]) => {
       generateDrums(midiData);
     })
-    .catch((error) => console.error("Error fetching MIDI data:", error));*/  
+    .catch((error) => console.error("Error fetching MIDI data:", error));  
 let animateWheels =false;
     window.addEventListener('keydown', (event) => {
         if (event.key === 'e') {
