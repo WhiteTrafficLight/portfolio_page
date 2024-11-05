@@ -6,9 +6,9 @@ import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 import hat from './models/hatOBJ/textured.obj';
 import hat2 from './models/hat2OBJ/textured.obj';
 import hat3 from './models/hat3OBJ/textured.obj';
-import tv from './tv/tv.obj';
-import car_frame from './car/Vazz.obj';
-import car_glass from './car/VazGlass.obj';
+//import tv from './tv/tv.obj';
+//import car_frame from './car/Vazz.obj';
+//import car_glass from './car/VazGlass.obj';
 import plant from './models/Plant/textured.obj';
 import { MTLLoader } from 'three/examples/jsm/loaders/MTLLoader';
 import * as TWEEN from '@tweenjs/tween.js';
@@ -26,7 +26,7 @@ import { Settings } from './helper'
 import font2 from 'three/examples/fonts/helvetiker_regular.typeface.json'
 import type * as utils from './lib/utils';
 import { Reflector } from 'three/examples/jsm/objects/Reflector'
-import { Midi } from '@tonejs/midi';
+//import { Midi } from '@tonejs/midi';
 import * as Tone from 'tone';
 
 
