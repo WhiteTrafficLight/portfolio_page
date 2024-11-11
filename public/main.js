@@ -10,9 +10,9 @@ import { OBJLoader } from "https://cdn.skypack.dev/three@0.150.1/examples/jsm/lo
 import { GLTFLoader } from "https://cdn.skypack.dev/three@0.150.1/examples/jsm/loaders/GLTFLoader.js";
 import { Reflector } from "https://cdn.skypack.dev/three@0.150.1/examples/jsm/objects/Reflector.js";
 import { MTLLoader } from "https://cdn.skypack.dev/three@0.150.1/examples/jsm/objects/MTLLoader.js";
-import hat from '../src/models/hatOBJ/textured.obj';
-import hat2 from '../src/models/hat2OBJ/textured.obj';
-import hat3 from '../src/models/hat3OBJ/textured.obj';
+import hat from './models/hatOBJ/textured.obj';
+import hat2 from './models/hat2OBJ/textured.obj';
+import hat3 from './models/hat3OBJ/textured.obj';
 //import tv from './tv/tv.obj';
 //import car_frame from './car/Vazz.obj';
 //import car_glass from './car/VazGlass.obj';
