@@ -19,7 +19,9 @@ import hat3 from './models/hat3OBJ/textured.obj';
 
 import plant from './models/Plant/textured.obj';
 //import { MTLLoader } from 'three/examples/jsm/loaders/MTLLoader';
-import * as TWEEN from '@tweenjs/tween.js';
+//import * as TWEEN from '@tweenjs/tween.js';
+import * as TWEEN from "https://cdn.skypack.dev/@tweenjs/tween.js";
+
 import { addBalls } from './helper';
 import { addBalls2 } from './helper';
 import { addSnow } from './helper';

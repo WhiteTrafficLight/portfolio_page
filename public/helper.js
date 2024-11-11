@@ -12,7 +12,9 @@ import { MTLLoader } from "https://cdn.skypack.dev/three@0.150.1/examples/jsm/lo
 import { objectFlip } from './lib/utils';
 import * as utils from './lib/utils';
 import dat from 'dat.gui';
-import * as TWEEN from '@tweenjs/tween.js';
+//import * as TWEEN from '@tweenjs/tween.js';
+import * as TWEEN from "https://cdn.skypack.dev/@tweenjs/tween.js";
+
 import OpenAI from 'openai';
 export class Settings extends utils.Callbackable {
     "Please send me to" = "";
