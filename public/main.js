@@ -9,7 +9,7 @@ import { OrbitControls } from "https://cdn.skypack.dev/three@0.150.1/examples/js
 import { OBJLoader } from "https://cdn.skypack.dev/three@0.150.1/examples/jsm/loaders/OBJLoader.js";
 import { GLTFLoader } from "https://cdn.skypack.dev/three@0.150.1/examples/jsm/loaders/GLTFLoader.js";
 import { Reflector } from "https://cdn.skypack.dev/three@0.150.1/examples/jsm/objects/Reflector.js";
-import { MTLLoader } from "https://cdn.skypack.dev/three@0.150.1/examples/jsm/objects/MTLLoader.js";
+import { MTLLoader } from "https://cdn.skypack.dev/three@0.150.1/examples/jsm/loaders/MTLLoader.js";
 //import hat from './models/hatOBJ/textured.obj';
 //import hat2 from './models/hat2OBJ/textured.obj';
 //import hat3 from './models/hat3OBJ/textured.obj';
