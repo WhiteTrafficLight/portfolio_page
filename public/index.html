@@ -18,8 +18,12 @@
     -->
 
     <!-- Load main.js as a module -->
+    <script type="module">
+      import * as THREE from "https://cdn.skypack.dev/three@0.150.1";
+      import { OBJLoader } from "https://cdn.skypack.dev/three@0.150.1/examples/jsm/loaders/OBJLoader.js";
+      // Your main JavaScript code here, or call an external main.js script
+    </script>
     <script type="module" src="./main.js"></script>
-
     <!-- OR Inline script without src -->
     <script type="module">
       import * as MAIN from "./main.js";  // Ensure .js if compiled
