@@ -82,16 +82,16 @@ async function main() {
     scene2.background = new THREE.TextureLoader().load("./images/sunny.jpeg");
     scene2.background.mapping = THREE.EquirectangularReflectionMapping;
     
-    const videoElement = document.getElementById('background-video') as HTMLVideoElement;
-    videoElement.play();
-    if (videoElement) {
+    //const videoElement = document.getElementById('background-video') as HTMLVideoElement;
+    //videoElement.play();
+    //if (videoElement) {
       // Access videoElement properties or methods here
-      const videoTexture = new THREE.VideoTexture(videoElement)
-      scene4.background = videoTexture;
+    //  const videoTexture = new THREE.VideoTexture(videoElement)
+    //  scene4.background = videoTexture;
 
-    } else {
-     console.error("Video element not found");
-    }
+    //} else {
+    // console.error("Video element not found");
+    //}
 
 
     
