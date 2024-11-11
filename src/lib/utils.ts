@@ -10,15 +10,26 @@ export class Callbackable {
   _handler: Array<(kv: KeyValuePair<Callbackable>) => void> = [];
 
   constructor() {
-    let watcher: ProxyHandler<Callbackable> = {
+    const watcher: ProxyHandler<Callbackable> = {
       set: (obj, prop, value) => {
-        obj[prop as keyof Callbackable] = value;
+        // Type assertion for prop to ensure it aligns with keyof Callbackable
+        if (prop === "_handler" && Array.isArray(value)) {
+          obj._handler = value as Array<(kv: KeyValuePair<Callbackable>) => void>;
+        } else {
+          // General case for other properties
+          (obj as any)[prop] = value;
+        }
+
+        // Trigger handlers if they exist
         if (obj._handler) {
-          obj._handler.forEach((handler) => handler({ key: prop, value }));
+          obj._handler.forEach((handler) =>
+            handler({ key: prop as keyof Callbackable, value })
+          );
         }
         return true;
       }
     };
+
     return new Proxy(this, watcher);
   }
 
