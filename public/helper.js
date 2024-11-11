@@ -1,6 +1,6 @@
 //import * as THREE from 'three';
 //import { Mesh, TextureLoader, WebGLBufferRenderer } from 'three';
-import cloud from './clouds/cloud.obj';
+//import cloud from './clouds/cloud.obj';
 //import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader';
 //import { MTLLoader } from 'three/examples/jsm/loaders/MTLLoader';
 import * as THREE from "https://cdn.skypack.dev/three@0.150.1";
@@ -9,8 +9,8 @@ const { Mesh, TextureLoader, WebGLBufferRenderer } = THREE;
 import { OBJLoader } from "https://cdn.skypack.dev/three@0.150.1/examples/jsm/loaders/OBJLoader.js";
 import { MTLLoader } from "https://cdn.skypack.dev/three@0.150.1/examples/jsm/loaders/MTLLoader.js";
 
-import { objectFlip } from './lib/utils';
-import * as utils from './lib/utils';
+//import { objectFlip } from './lib/utils';
+import * as utils from './lib/utils.js';
 //import dat from 'dat.gui';
 //import * as TWEEN from '@tweenjs/tween.js';
 import dat from "https://cdn.skypack.dev/dat.gui";
