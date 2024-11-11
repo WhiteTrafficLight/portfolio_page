@@ -579,7 +579,7 @@ async function main() {
     let on_store2 = false;
     let on_store3 = false;
     renderer.domElement.addEventListener('mousemove',store_select)
-    function store_select(event){
+    function store_select(event: MouseEvent){
         let mouseX = (event.clientX / window.innerWidth) * 2 - 1;
         let mouseY = -(event.clientY / window.innerHeight) * 2 + 1;
         raycaster.setFromCamera({ x: mouseX, y: mouseY }, camera2);
@@ -609,7 +609,7 @@ async function main() {
         
     }
     renderer.domElement.addEventListener('mousedown',scene_change);
-    function scene_change(event){
+    function scene_change(event: MouseEvent){
         let mouseX = (event.clientX / window.innerWidth) * 2 - 1;
         let mouseY = -(event.clientY / window.innerHeight) * 2 + 1;
         raycaster.setFromCamera({ x: mouseX, y: mouseY }, camera2);
