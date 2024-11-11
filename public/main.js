@@ -36,7 +36,7 @@ import { Settings } from './helper';
 //import font2 from 'three/examples/fonts/helvetiker_regular.typeface.json';
 //import { Reflector } from 'three/examples/jsm/objects/Reflector';
 //import { Midi } from '@tonejs/midi';
-import * as Tone from 'tone';
+//import * as Tone from 'tone';
 //import { performance } from 'perf_hooks';
 let scene = new THREE.Scene();
 let scene2 = new THREE.Scene();
