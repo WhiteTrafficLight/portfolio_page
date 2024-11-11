@@ -9,15 +9,21 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    
     <!-- Commented out the video element -->
     <!--
     <video id="background-video" style="display:none;" loop autoplay muted>
       <source src="videos/trippy.mp4" type="video/mp4" />
     </video>
     -->
-    <script type="module" src="main.js">
-      import * as MAIN from "./main";
-      // just to access all exported variables in main.ts
+
+    <!-- Load main.js as a module -->
+    <script type="module" src="./main.js"></script>
+
+    <!-- OR Inline script without src -->
+    <script type="module">
+      import * as MAIN from "./main.js";  // Ensure .js if compiled
+      // just to access all exported variables in main.js
       window.main = MAIN;
     </script>
   </body>
