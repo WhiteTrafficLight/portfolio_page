@@ -10,14 +10,18 @@ import { OBJLoader } from "https://cdn.skypack.dev/three@0.150.1/examples/jsm/lo
 import { GLTFLoader } from "https://cdn.skypack.dev/three@0.150.1/examples/jsm/loaders/GLTFLoader.js";
 import { Reflector } from "https://cdn.skypack.dev/three@0.150.1/examples/jsm/objects/Reflector.js";
 import { MTLLoader } from "https://cdn.skypack.dev/three@0.150.1/examples/jsm/objects/MTLLoader.js";
-import hat from './models/hatOBJ/textured.obj';
-import hat2 from './models/hat2OBJ/textured.obj';
-import hat3 from './models/hat3OBJ/textured.obj';
+//import hat from './models/hatOBJ/textured.obj';
+//import hat2 from './models/hat2OBJ/textured.obj';
+//import hat3 from './models/hat3OBJ/textured.obj';
 //import tv from './tv/tv.obj';
 //import car_frame from './car/Vazz.obj';
 //import car_glass from './car/VazGlass.obj';
 
-import plant from './models/Plant/textured.obj';
+//import plant from './models/Plant/textured.obj';
+const hat = './models/hatOBJ/textured.obj';
+const hat2 = './models/hat2OBJ/textured.obj';
+const hat3 = './models/hat3OBJ/textured.obj';
+const plant = './models/Plant/textured.obj';
 //import { MTLLoader } from 'three/examples/jsm/loaders/MTLLoader';
 //import * as TWEEN from '@tweenjs/tween.js';
 import * as TWEEN from "https://cdn.skypack.dev/@tweenjs/tween.js";
