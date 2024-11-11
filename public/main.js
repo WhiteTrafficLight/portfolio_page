@@ -30,7 +30,7 @@ import { addSnow3 } from './helper';
 import { addHatWithBalls } from './helper';
 //import { FontLoader } from 'three/examples/jsm/loaders/FontLoader.js';
 //import { TextGeometry } from 'three/examples/jsm/geometries/TextGeometry.js';
-import dat from 'dat.gui';
+//import dat from 'dat.gui';
 import { createGUI } from './helper';
 import { Settings } from './helper';
 //import font2 from 'three/examples/fonts/helvetiker_regular.typeface.json';
