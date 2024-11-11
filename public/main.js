@@ -4,11 +4,12 @@ import { AxesHelper, BufferAttribute, Light, Mesh, MeshStandardMaterial, ObjectL
 //import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader.js';
 //import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 import * as THREE from "https://cdn.skypack.dev/three@0.150.1";
+const { AxesHelper, BufferAttribute, Light, Mesh, MeshStandardMaterial, ObjectLoader, PositionalAudio } = THREE;
 import { OrbitControls } from "https://cdn.skypack.dev/three@0.150.1/examples/jsm/controls/OrbitControls.js";
 import { OBJLoader } from "https://cdn.skypack.dev/three@0.150.1/examples/jsm/loaders/OBJLoader.js";
 import { GLTFLoader } from "https://cdn.skypack.dev/three@0.150.1/examples/jsm/loaders/GLTFLoader.js";
 import { Reflector } from "https://cdn.skypack.dev/three@0.150.1/examples/jsm/objects/Reflector.js";
-
+import { MTLLoader } from "https://cdn.skypack.dev/three@0.150.1/examples/jsm/objects/MTLLoader.js";
 import hat from './models/hatOBJ/textured.obj';
 import hat2 from './models/hat2OBJ/textured.obj';
 import hat3 from './models/hat3OBJ/textured.obj';
@@ -17,7 +18,7 @@ import hat3 from './models/hat3OBJ/textured.obj';
 //import car_glass from './car/VazGlass.obj';
 
 import plant from './models/Plant/textured.obj';
-import { MTLLoader } from 'three/examples/jsm/loaders/MTLLoader';
+//import { MTLLoader } from 'three/examples/jsm/loaders/MTLLoader';
 import * as TWEEN from '@tweenjs/tween.js';
 import { addBalls } from './helper';
 import { addBalls2 } from './helper';
@@ -25,12 +26,12 @@ import { addSnow } from './helper';
 import { addSnow2 } from './helper';
 import { addSnow3 } from './helper';
 import { addHatWithBalls } from './helper';
-import { FontLoader } from 'three/examples/jsm/loaders/FontLoader.js';
-import { TextGeometry } from 'three/examples/jsm/geometries/TextGeometry.js';
+//import { FontLoader } from 'three/examples/jsm/loaders/FontLoader.js';
+//import { TextGeometry } from 'three/examples/jsm/geometries/TextGeometry.js';
 import dat from 'dat.gui';
 import { createGUI } from './helper';
 import { Settings } from './helper';
-import font2 from 'three/examples/fonts/helvetiker_regular.typeface.json';
+//import font2 from 'three/examples/fonts/helvetiker_regular.typeface.json';
 //import { Reflector } from 'three/examples/jsm/objects/Reflector';
 //import { Midi } from '@tonejs/midi';
 import * as Tone from 'tone';

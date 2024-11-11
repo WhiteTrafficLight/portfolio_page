@@ -1,9 +1,10 @@
 //import * as THREE from 'three';
-import { Mesh, TextureLoader, WebGLBufferRenderer } from 'three';
+//import { Mesh, TextureLoader, WebGLBufferRenderer } from 'three';
 import cloud from './clouds/cloud.obj';
 //import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader';
 //import { MTLLoader } from 'three/examples/jsm/loaders/MTLLoader';
 import * as THREE from "https://cdn.skypack.dev/three@0.150.1";
+const { Mesh, TextureLoader, WebGLBufferRenderer } = THREE;
 //import { OrbitControls } from "https://cdn.skypack.dev/three@0.150.1/examples/jsm/controls/OrbitControls.js";
 import { OBJLoader } from "https://cdn.skypack.dev/three@0.150.1/examples/jsm/loaders/OBJLoader.js";
 import { MTLLoader } from "https://cdn.skypack.dev/three@0.150.1/examples/jsm/loaders/MTLLoader.js";
