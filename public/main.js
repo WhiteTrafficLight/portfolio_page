@@ -25,7 +25,7 @@ const hat3 = './models/hat3OBJ/textured.obj';
 const plant = './models/Plant/textured.obj';
 //import { MTLLoader } from 'three/examples/jsm/loaders/MTLLoader';
 //import * as TWEEN from '@tweenjs/tween.js';
-import * as TWEEN from "https://cdn.skypack.dev/@tweenjs/tween.js";
+//import * as TWEEN from "https://cdn.skypack.dev/@tweenjs/tween.js";
 
 import { addBalls } from './helper.js';
 //import { addBalls2 } from './helper.js';
