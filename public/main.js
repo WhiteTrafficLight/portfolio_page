@@ -3,13 +3,14 @@
 //import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 //import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader.js';
 //import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
+//import * as THREE from "https://cdn.skypack.dev/three@0.150.1";
+//const { AxesHelper, BufferAttribute, Light, Mesh, MeshStandardMaterial, ObjectLoader, PositionalAudio } = THREE;
 import * as THREE from "https://cdn.skypack.dev/three@0.150.1";
-const { AxesHelper, BufferAttribute, Light, Mesh, MeshStandardMaterial, ObjectLoader, PositionalAudio } = THREE;
 import { OrbitControls } from "https://cdn.skypack.dev/three@0.150.1/examples/jsm/controls/OrbitControls.js";
 import { OBJLoader } from "https://cdn.skypack.dev/three@0.150.1/examples/jsm/loaders/OBJLoader.js";
 import { GLTFLoader } from "https://cdn.skypack.dev/three@0.150.1/examples/jsm/loaders/GLTFLoader.js";
-import { Reflector } from "https://cdn.skypack.dev/three@0.150.1/examples/jsm/objects/Reflector.js";
-import { MTLLoader } from "https://cdn.skypack.dev/three@0.150.1/examples/jsm/loaders/MTLLoader.js";
+import * as TWEEN from "https://cdn.skypack.dev/@tweenjs/tween.js";
+const { AxesHelper, BufferAttribute, Light, Mesh, MeshStandardMaterial, ObjectLoader, PositionalAudio } = THREE;
 //import hat from './models/hatOBJ/textured.obj';
 //import hat2 from './models/hat2OBJ/textured.obj';
 //import hat3 from './models/hat3OBJ/textured.obj';
