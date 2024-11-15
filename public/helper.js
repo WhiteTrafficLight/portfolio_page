@@ -1,14 +1,10 @@
-import * as THREE from "https://cdn.jsdelivr.net/npm/three@0.150.1/build/three.module.js";
-const { Mesh, TextureLoader, WebGLBufferRenderer } = THREE;
-import { OBJLoader } from "https://cdn.jsdelivr.net/npm/three@0.150.1/examples/jsm/loaders/OBJLoader.js";
-import { MTLLoader } from "https://cdn.jsdelivr.net/npm/three@0.150.1/examples/jsm/loaders/MTLLoader.js";
-
-//import { objectFlip } from './lib/utils';
-import * as utils from './lib/utils.js';
-//import dat from 'dat.gui';
-//import * as TWEEN from '@tweenjs/tween.js';
-import dat from "https://cdn.jsdelivr.net/npm/dat.gui@0.7.9/build/dat.gui.module.js";
-import * as TWEEN from "https://cdn.jsdelivr.net/npm/@tweenjs/tween.js@18.6.4/dist/tween.umd.js";
+import * as THREE from 'three';
+import { OrbitControls } from 'OrbitControls';
+import { OBJLoader } from 'OBJLoader';
+import { MTLLoader } from 'MTLLoader';
+import { GLTFLoader } from 'GLTFLoader';
+import dat from 'dat.gui';
+import * as TWEEN from '@tweenjs/tween.js';
 
 //import OpenAI from 'openai';
 export class Settings extends utils.Callbackable {

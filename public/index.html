@@ -3,11 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Three.js Example</title>
+  <title>Three.js Project</title>
+
+  <!-- Import Map for Modern Browsers (Optional) -->
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.150.1/build/three.module.js",
+        "OrbitControls": "https://cdn.jsdelivr.net/npm/three@0.150.1/examples/jsm/controls/OrbitControls.js",
+        "OBJLoader": "https://cdn.jsdelivr.net/npm/three@0.150.1/examples/jsm/loaders/OBJLoader.js",
+        "MTLLoader": "https://cdn.jsdelivr.net/npm/three@0.150.1/examples/jsm/loaders/MTLLoader.js",
+        "GLTFLoader": "https://cdn.jsdelivr.net/npm/three@0.150.1/examples/jsm/loaders/GLTFLoader.js"
+        "dat.gui": "https://cdn.jsdelivr.net/npm/dat.gui@0.7.9/build/dat.gui.module.js",
+        "@tweenjs/tween.js": "https://cdn.jsdelivr.net/npm/@tweenjs/tween.js@18.6.4/dist/tween.umd.js"
+      }
+    }
+  </script>
 </head>
 <body>
-  <script type="module" src="./main.js"></script>
+  <noscript>
+    You need to enable JavaScript to run this app.
+  </noscript>
+
+  <!-- Load main.js -->
+  <script type="module" src="./js/main.js"></script>
 </body>
 </html>
+
 
 

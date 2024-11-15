@@ -1,48 +1,25 @@
-//import { AxesHelper, BufferAttribute, Light, Mesh, MeshStandardMaterial, ObjectLoader, PositionalAudio } from 'three';
-//import * as THREE from 'three';
-//import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
-//import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader.js';
-//import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
-//import * as THREE from "https://cdn.skypack.dev/three@0.150.1";
-//const { AxesHelper, BufferAttribute, Light, Mesh, MeshStandardMaterial, ObjectLoader, PositionalAudio } = THREE;
-import * as THREE from "https://cdn.skypack.dev/three@0.150.1";
-import { OrbitControls } from "https://cdn.skypack.dev/three@0.150.1/examples/jsm/controls/OrbitControls.js";
-import { OBJLoader } from "https://cdn.skypack.dev/three@0.150.1/examples/jsm/loaders/OBJLoader.js";
-import { GLTFLoader } from "https://cdn.skypack.dev/three@0.150.1/examples/jsm/loaders/GLTFLoader.js";
-import * as TWEEN from "https://cdn.skypack.dev/@tweenjs/tween.js";
+import * as THREE from 'three';
+import { OrbitControls } from 'OrbitControls';
+import { OBJLoader } from 'OBJLoader';
+import { GLTFLoader } from 'GLTFLoader';
+import dat from 'dat.gui';
+import * as TWEEN from '@tweenjs/tween.js';
 const { AxesHelper, BufferAttribute, Light, Mesh, MeshStandardMaterial, ObjectLoader, PositionalAudio } = THREE;
-//import hat from './models/hatOBJ/textured.obj';
-//import hat2 from './models/hat2OBJ/textured.obj';
-//import hat3 from './models/hat3OBJ/textured.obj';
-//import tv from './tv/tv.obj';
-//import car_frame from './car/Vazz.obj';
-//import car_glass from './car/VazGlass.obj';
 
-//import plant from './models/Plant/textured.obj';
 const hat = './models/hatOBJ/textured.obj';
 const hat2 = './models/hat2OBJ/textured.obj';
 const hat3 = './models/hat3OBJ/textured.obj';
 const plant = './models/Plant/textured.obj';
-//import { MTLLoader } from 'three/examples/jsm/loaders/MTLLoader';
-//import * as TWEEN from '@tweenjs/tween.js';
-//import * as TWEEN from "https://cdn.skypack.dev/@tweenjs/tween.js";
+
 
 import { addBalls } from './helper.js';
-//import { addBalls2 } from './helper.js';
 import { addSnow } from './helper.js';
 import { addSnow2 } from './helper.js';
 import { addSnow3 } from './helper.js';
 import { addHatWithBalls } from './helper.js';
-//import { FontLoader } from 'three/examples/jsm/loaders/FontLoader.js';
-//import { TextGeometry } from 'three/examples/jsm/geometries/TextGeometry.js';
-//import dat from 'dat.gui';
 import { createGUI } from './helper.js';
 import { Settings } from './helper.js';
-//import font2 from 'three/examples/fonts/helvetiker_regular.typeface.json';
-//import { Reflector } from 'three/examples/jsm/objects/Reflector';
-//import { Midi } from '@tonejs/midi';
-//import * as Tone from 'tone';
-//import { performance } from 'perf_hooks';
+
 let scene = new THREE.Scene();
 let scene2 = new THREE.Scene();
 let scene3 = new THREE.Scene();
