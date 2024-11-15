@@ -1,20 +1,14 @@
-//import * as THREE from 'three';
-//import { Mesh, TextureLoader, WebGLBufferRenderer } from 'three';
-//import cloud from './clouds/cloud.obj';
-//import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader';
-//import { MTLLoader } from 'three/examples/jsm/loaders/MTLLoader';
-import * as THREE from "https://cdn.skypack.dev/three@0.150.1";
+import * as THREE from "https://cdn.jsdelivr.net/npm/three@0.150.1/build/three.module.js";
 const { Mesh, TextureLoader, WebGLBufferRenderer } = THREE;
-//import { OrbitControls } from "https://cdn.skypack.dev/three@0.150.1/examples/jsm/controls/OrbitControls.js";
-import { OBJLoader } from "https://cdn.skypack.dev/three@0.150.1/examples/jsm/loaders/OBJLoader.js";
-import { MTLLoader } from "https://cdn.skypack.dev/three@0.150.1/examples/jsm/loaders/MTLLoader.js";
+import { OBJLoader } from "https://cdn.jsdelivr.net/npm/three@0.150.1/examples/jsm/loaders/OBJLoader.js";
+import { MTLLoader } from "https://cdn.jsdelivr.net/npm/three@0.150.1/examples/jsm/loaders/MTLLoader.js";
 
 //import { objectFlip } from './lib/utils';
 import * as utils from './lib/utils.js';
 //import dat from 'dat.gui';
 //import * as TWEEN from '@tweenjs/tween.js';
-import dat from "https://cdn.skypack.dev/dat.gui";
-import * as TWEEN from "https://cdn.skypack.dev/@tweenjs/tween.js";
+import dat from "https://cdn.jsdelivr.net/npm/dat.gui@0.7.9/build/dat.gui.module.js";
+import * as TWEEN from "https://cdn.jsdelivr.net/npm/@tweenjs/tween.js@18.6.4/dist/tween.umd.js";
 
 //import OpenAI from 'openai';
 export class Settings extends utils.Callbackable {
