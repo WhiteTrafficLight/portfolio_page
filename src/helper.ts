@@ -9,7 +9,7 @@ import { objectFlip } from './lib/utils';
 import * as utils from './lib/utils';
 import dat from 'dat.gui';
 import * as TWEEN from '@tweenjs/tween.js';
-import OpenAI from 'openai'
+
 
 
 export class Settings extends utils.Callbackable{
