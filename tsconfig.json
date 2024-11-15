@@ -14,7 +14,7 @@
     /* more strict checking for errors that per-file transpilers like `esbuild` would crash */
     "isolatedModules": true,
     /* noEmit - We only use TypeScript for type checking. */
-    "noEmit": true,
+    //"noEmit": true,
     /* Additional Options */
     "strict": true,
     "skipLibCheck": true,
@@ -31,6 +31,6 @@
     "baseUrl": "./",
     "paths": { "*": ["web_modules/.types/*"] }
   },
-  "include": ["types"],
-  "exclude": ["node_modules","src"]
+  "include": ["types","src"],
+  "exclude": ["node_modules"]
 }
