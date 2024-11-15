@@ -5,6 +5,7 @@ import { MTLLoader } from 'MTLLoader';
 import { GLTFLoader } from 'GLTFLoader';
 import dat from 'dat.gui';
 import * as TWEEN from '@tweenjs/tween.js';
+import * as utils from './lib/utils.js';
 
 //import OpenAI from 'openai';
 export class Settings extends utils.Callbackable {

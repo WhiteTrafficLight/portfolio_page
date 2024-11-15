@@ -5,7 +5,7 @@ import cloud from './clouds/cloud.obj'
 import type {  OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader';
 import { MTLLoader } from 'three/examples/jsm/loaders/MTLLoader';
-import { objectFlip } from './lib/utils';
+//import { objectFlip } from './lib/utils';
 import * as utils from './lib/utils';
 import dat from 'dat.gui';
 import * as TWEEN from '@tweenjs/tween.js';
